@@ -1,4 +1,5 @@
 import sys
+import pandas as pd
 
 # to get you started, here is sample code that reads the file and outputs an output file that is 0% correct (all empty arrays). You don't need to use this skeleton, feel free to start over and do it another way.
 
@@ -27,6 +28,7 @@ def parse_language(user_input):
     A2 = []
     A1 = []
     # YOUR CODE HERE
+
     return native langs, C2, C1, B2, B1, A2, A1
     
     
