@@ -32,7 +32,8 @@ def parse_language(user_input):
     return native langs, C2, C1, B2, B1, A2, A1
     
     
-    
+def parse_language_nationality(input):
+
 if __name__ == "__main__":
     # Check if filename argument is provided
     if len(sys.argv) != 2:
