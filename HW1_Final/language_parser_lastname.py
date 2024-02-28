@@ -47,7 +47,8 @@ def parse_language(user_input):
         word_inter = flag.dflagize(word).split(":")
         word_inter = [w for w in word_inter if w]
         corpus_final.extend(word_inter)
-
+    # if len(corpus_final) == 0:
+    #     corpus_final = corpus
     # Determine the direction of the balises
     balises_on_right = corpus_final[-1] in balises
 
