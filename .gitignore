@@ -3,3 +3,9 @@
 *.xd
 .idea/workspace.xml
 *.lck
+.DS_Store
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/ML4FS_Nathan.iml
+.idea/vcs.xml
